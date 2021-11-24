@@ -1,0 +1,10 @@
+@mixin images {
+  width: 10%;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+@mixin img-hover {
+  border: solid 5px $Orange-color;
+    color: $Orange-color;
+    opacity: 0.5;
+}

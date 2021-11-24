@@ -1,0 +1,47 @@
+.header {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width:100%;
+	height:100px;
+  border-bottom: 1px solid $Grayish-blue;
+
+.header-left {
+  display: flex;
+  color: $Grayish-blue;
+  h1 {
+    color: $Black;
+    margin-right: 40px;
+  }
+  p {
+    margin-left: 20px;
+    margin-top: 35px;
+  }
+  p:hover {
+    color: $Black;
+  }
+}//header-left
+
+.header-rghit {
+  display: flex;
+  img {  
+    width: 50px;
+    height: 50px;
+    margin-top: 18px;
+  }
+  svg {
+    margin-top: 32px;
+    margin-right: 50px;
+  }
+  img:hover {
+    border: solid $Orange-color;
+    border-radius: 30px;
+  }
+} //header-right
+
+
+} //header
+
+
+
